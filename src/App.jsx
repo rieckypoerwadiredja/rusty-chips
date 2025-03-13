@@ -8,8 +8,8 @@ import ProductShowcase from "./components/fragments/ProductShowcase";
 
 function App() {
   const imagesChips = [
-    "../public/Images/Products/slice_chip.png",
-    "../public/Images/Products/slice_bite_chip.png",
+    "/Images/Products/slice_chip.png",
+    "/Images/Products/slice_bite_chip.png",
     "",
   ];
 
@@ -33,7 +33,7 @@ function App() {
       <header className="container mx-auto py-6 px-4 flex justify-between items-center">
         <div className="text-3xl font-bold text-white">
           <img
-            src="../public/Images/Logo/logo.png"
+            src="/Images/Logo/logo.png"
             alt="Rusty's Chips Logo"
             className="object-contain h-12 md:h-24"
           />
@@ -93,7 +93,7 @@ function App() {
 
         <div className="relative">
           <motion.img
-            src="../public/Images/Products/red_chips.png"
+            src="/Images/Products/red_chips.png"
             alt="Rusty's Chips Island Style"
             className="mx-auto w-4/5"
             initial={{ opacity: 0, scale: 0.8 }}
@@ -115,7 +115,7 @@ function App() {
           />
 
           <motion.img
-            src="../public/Images/Element/circle.svg"
+            src="/Images/Element/circle.svg"
             alt="Circle Element"
             className="absolute top-[40%] left-[60%] -translate-y-1/2 -translate-x-1/2 -z-10 mx-auto w-4/5"
             animate={{ scale: [1, 1.03, 1] }} // Perubahan skala lebih kecil
@@ -126,13 +126,13 @@ function App() {
             }}
           />
           <img
-            src="../public/Images/Element/line.svg"
+            src="/Images/Element/line.svg"
             alt="Line Element"
             className="absolute top-[45%] left-[70%] -translate-y-1/2 -translate-x-1/2 -z-10 mx-auto w-3/5"
           />
 
           <motion.img
-            src="../public/Images/Products/chips.png"
+            src="/Images/Products/chips.png"
             alt="Chips Element"
             className="absolute -bottom-[35%] left-[25%] -translate-y-1/2 -translate-x-1/2 -z-10 mx-auto w-3/5"
             animate={{ rotate: [0, 5, -5, 0] }}
@@ -158,7 +158,7 @@ function App() {
           <div className="flex flex-col md:flex-row justify-evenly items-center mb-8">
             <div>
               <img
-                src="../public/Images/Logo/logo_complete_not_chips.png"
+                src="/Images/Logo/logo_complete_not_chips.png"
                 alt="Rusty's Island Chips"
                 className="object-contain h-20"
               />

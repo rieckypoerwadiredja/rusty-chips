@@ -15,7 +15,7 @@ const ChipImageSection = ({ imagesChips, indexImageChips }) => {
           <div className="absolute -right-[20%] -top-[10%] -z-10 w-15 aspect-square bg-secondary transition-all duration-300 group-hover:-right-[10%] group-hover:top-0 group-hover:w-12"></div>
           <div className="absolute -right-[10%] top-0 -z-10 w-15 aspect-square border-4 border-white transition-all duration-300 group-hover:-right-[20%] group-hover:-top-[10%]"></div>
           <motion.img
-            src="../public/Images/Hero/side_hero_green_chips.png"
+            src="/Images/Hero/side_hero_green_chips.png"
             alt="Green Chip"
             className="object-contain w-full transition-transform duration-300 group-hover:translate-x-5"
             initial={{ opacity: 0, scale: 0.8 }}
@@ -27,7 +27,7 @@ const ChipImageSection = ({ imagesChips, indexImageChips }) => {
         <div className="absolute bottom-0 md:bottom-[10%] left-10 container mx-auto px-4 flex justify-center">
           <div className="relative">
             <motion.img
-              src="../public/Images/Logo/logo_complete_not_chips.png"
+              src="/Images/Logo/logo_complete_not_chips.png"
               alt="Rusty's Island Chips"
               className="object-contain w-4/5 md:max-w-xl max-w-lgxl"
               initial={{ opacity: 0, y: 30 }}

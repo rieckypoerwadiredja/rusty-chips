@@ -23,7 +23,7 @@ export default function HandmadeSection() {
 
         {/* Gambar Fade-in */}
         <motion.img
-          src="../public/Images/Banner/marketing.png"
+          src="/Images/Banner/marketing.png"
           alt="Rusty's Chips Varieties on Beach"
           className="object-contain w-[90%] shadow"
           initial={{ opacity: 0 }}
