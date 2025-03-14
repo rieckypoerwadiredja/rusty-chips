@@ -9,7 +9,7 @@ const ChipImageSection = ({ imagesChips, indexImageChips }) => {
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.5 }} // Memastikan animasi mulai setelah 80% terlihat
-        transition={{ duration: 0.6, ease: "easeOut" }}
+        transition={{ duration: 0.8, ease: "easeOut" }}
       >
         <div className="relative max-w-2/3 group">
           <div className="absolute -right-[20%] -top-[10%] -z-10 w-15 aspect-square bg-secondary transition-all duration-300 group-hover:-right-[10%] group-hover:top-0 group-hover:w-12"></div>
@@ -21,7 +21,7 @@ const ChipImageSection = ({ imagesChips, indexImageChips }) => {
             initial={{ opacity: 0, scale: 0.8 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true, amount: 0.5 }}
-            transition={{ duration: 0.5, delay: 0.2 }}
+            transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
           />
         </div>
         <div className="absolute bottom-0 md:bottom-[10%] left-10 container mx-auto px-4 flex justify-center">
@@ -33,7 +33,7 @@ const ChipImageSection = ({ imagesChips, indexImageChips }) => {
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.5 }}
-              transition={{ duration: 0.6, delay: 0.3 }}
+              transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}
             />
             <motion.img
               className="absolute -bottom-[170%] left-[38%] w-[65%] -z-10"
@@ -50,6 +50,7 @@ const ChipImageSection = ({ imagesChips, indexImageChips }) => {
                 repeat:
                   indexImageChips === imagesChips.length - 1 ? 0 : Infinity,
                 repeatDelay: 0.8,
+                ease: "easeOut",
               }}
             />
           </div>
